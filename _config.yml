@@ -1,0 +1,9 @@
+title: Ashton Lollis
+description: Computer Engineering Student at Columbia University
+url: ""
+baseurl: ""
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown

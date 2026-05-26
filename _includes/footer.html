@@ -1,0 +1,20 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span>{{ site.author.name }}</span>
+      <span class="footer-sep">—</span>
+      <span>{{ site.author.location }}</span>
+    </div>
+    <div class="footer-links">
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+      {% endif %}
+      {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}" class="footer-link">Email</a>
+      {% endif %}
+    </div>
+  </div>
+</footer>
